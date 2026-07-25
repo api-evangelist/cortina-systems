@@ -1,8 +1,28 @@
 aid: cortina-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cortina-systems.png
 name: Cortina Systems
-description: Cortina Systems is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cortina Systems, Inc. was a venture-backed fabless semiconductor company
+  founded in 2001 and headquartered in Sunnyvale, California, that designed
+  high-speed communications and networking integrated circuits for optical
+  transport, carrier Ethernet, framer/mapper and PHY devices, and broadband
+  access (EPON/GPON and DSL). The company grew through acquisitions and was
+  itself acquired by Inphi Corporation in 2014; Inphi later merged into Marvell
+  Technology in 2021, and the cortina-systems.com domain now redirects to
+  Marvell. Cortina was surfaced in the API Evangelist network as a portfolio
+  company of Canaan Partners. It is a hardware semiconductor business with no
+  public developer platform or API surface, so no API artifacts apply.
 url: https://raw.githubusercontent.com/api-evangelist/cortina-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,30 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: inphi-corporation
+x-successor: marvell-technology
+x-industry: semiconductors
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- Networking
+- Telecommunications
+- Optical Networking
+- Hardware
+- Fabless Semiconductor
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
